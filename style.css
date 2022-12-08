@@ -154,7 +154,6 @@ body .navbar__container{
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 900px;
 }
 
 .navbar-links li {
@@ -195,12 +194,11 @@ body .navbar__container{
 
 
 
+
 @media (max-width: 500px) {
     #balls{
         display:block;
-        align-items: center;
-        justify-content: center;
-        margin-left: 175px;
+        margin-left: 200px;
     }
     html{
         scroll-behavior: smooth;
