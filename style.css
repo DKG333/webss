@@ -167,9 +167,9 @@ body .navbar__container{
     padding: 1rem;
 }
 
-.navbar-links li:hover {
+/* .navbar-links li:hover {
     background-color: rgb(255, 102, 0);
-}
+} */
 
 .toggle-button {
     position: absolute;
@@ -188,8 +188,19 @@ body .navbar__container{
     background-color: white;
     border-radius: 10px;
 }
+#balls{
+    display: none;
+}
+
+
 
 @media (max-width: 500px) {
+    #balls{
+        display:block;
+        align-items: center;
+        justify-content: center;
+        margin-left: 175px;
+    }
     html{
         scroll-behavior: smooth;
         overflow-x: hidden;
