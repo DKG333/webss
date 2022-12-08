@@ -189,7 +189,7 @@ body .navbar__container{
     border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     html{
         scroll-behavior: smooth;
         overflow-x: hidden;
@@ -1858,6 +1858,23 @@ hr{
        
         
     }
+    .popup2 .content2 {
+        position: fixed;
+        top: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: #fff;
+        width: 800px;
+        height: 400px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+
+       
+        
+    }
     .popup3 .content ul{
         display: inline;
       
@@ -1868,6 +1885,18 @@ hr{
         float: left;
         padding-right: 15px;
     }
+    .popup2 .content2 ul{
+        display: inline;
+      
+        
+    }
+    .popup2 .content2 li{
+
+        float: left;
+        padding-right: 15px;
+    }
+
+
     .popup3 .closebtn3{
         position: fixed;
         top: 5%;
