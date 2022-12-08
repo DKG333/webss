@@ -154,6 +154,7 @@ body .navbar__container{
     display: flex;
     margin: 0;
     padding: 0;
+    margin-left: 900px;
 }
 
 .navbar-links li {
