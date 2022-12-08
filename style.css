@@ -994,7 +994,7 @@ hr{
 
 }
 
-.popup3 .closebtn{
+.popup3 .closebtn3{
     cursor: pointer;
     position: absolute;
     right: 20px;
@@ -1496,7 +1496,7 @@ hr{
         /* margin-left: -500px; */
         margin-right: 80px
     }
-    .popup3 .closebtn{
+    .popup3 .closebtn3{
         cursor: pointer;
         position: fixed;
         left: 300px;
@@ -1760,7 +1760,7 @@ hr{
         z-index: 200;
     
     }
-    .popup3 .content {
+    .popup3 .content .closebtn3{
         /* position: absolute;
         top: 50%;
         left: 50%;
@@ -1773,6 +1773,22 @@ hr{
         padding: 20px;
         box-sizing: border-box;
         z-index: 200; */
+        cursor: pointer;
+        position: fixed;
+        left: 300px;
+        right: 20px;
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        background: #222;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 300px;
+        margin-top: 50px;
     
     }
     .popup3 .content .text {
