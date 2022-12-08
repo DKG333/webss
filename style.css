@@ -1843,7 +1843,7 @@ hr{
     
     .popup3 .content {
         position: fixed;
-        top: 40%;
+        top: 60%;
         right: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: #fff;
@@ -1859,8 +1859,8 @@ hr{
         
     }
     .popup2 .content2 {
-        position: fixed;
-        top: 50%;
+        /* position: fixed;
+        top: 40%;
         right: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: #fff;
@@ -1870,9 +1870,20 @@ hr{
         text-align: center;
         padding: 20px;
         box-sizing: border-box;
-        z-index: 200;
+        z-index: 200; */
 
-       
+        position: fixed;
+        top: 70%;
+        right: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: #fff;
+        width: 800px;
+        height: 400px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200; 
         
     }
     .popup3 .content ul{
