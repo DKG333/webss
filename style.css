@@ -993,7 +993,7 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%)  scale(0);
-    background: rgb(190, 0, 0);
+    background: rgb(211, 211, 211);
     width: 1000px;
     height: 1000px;
     z-index: 2;
@@ -1001,12 +1001,16 @@ hr{
     padding: 20px;
     box-sizing: border-box;
     z-index: 200;
-    background-image: url(images/f.png);
+    background-image: url(images/Screenshot\ \(704\).png.png);
     background-repeat:no-repeat ;
     background-position: left;
 
+
    
 
+}
+.promo{
+    background-position: bottom;
 }
 
 .popup3 .closebtn3{
@@ -1017,7 +1021,7 @@ hr{
     width: 30px;
     height: 30px;
     background: #222;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
@@ -1124,7 +1128,7 @@ hr{
 
 
 .popup2 .content2{
-    position: fixed;
+    /* position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%)  scale(0);
@@ -1135,7 +1139,22 @@ hr{
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    z-index: 200; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)  scale(0);
+    background: rgb(211, 211, 211);
+    width: 1000px;
+    height: 1000px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
     z-index: 200;
+    background-image: url(images/Screenshot\ \(704\).png.png);
+    background-repeat:no-repeat ;
+    background-position: left;
 
 }
 
@@ -1455,6 +1474,7 @@ hr{
     width: 100%;
     height: 100%;
  }
+ 
     #packages .header {
         font-size: 10px;
         color: rgb(255, 255, 255);
@@ -1685,6 +1705,7 @@ hr{
     
     }
     .popup3 .content{
+  
         position: fixed;
         top: 60%;
         left: 50%;
@@ -1697,8 +1718,27 @@ hr{
         padding: 20px;
         box-sizing: border-box;
         z-index: 200;
+
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: rgb(190, 0, 0);
+        /* width: 1000px;
+        height: 1000px; */
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+        background-image: url(images/Screenshot\ \(704\).png);
+        background-repeat:no-repeat ;
+        background-position: left;
+       
     
     }
+   
      .promo{
         height: 50px;
         width: 50px;
@@ -1803,7 +1843,7 @@ hr{
         margin-top: 50px;
     }
     .popup3 .content .text {
-            font-size: 5px;
+            font-size: 100px;
     
     }
     .text1{
