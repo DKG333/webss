@@ -975,7 +975,7 @@ hr{
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 100vw;
+    width: 1000vw;
     height: 100vh;
     /* background: rgba(234, 234, 234, 0.7); */
     z-index: 1;
@@ -993,14 +993,19 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%)  scale(0);
-    background: #fff;
-    width: 700px;
-    height: 800px;
+    background: rgb(190, 0, 0);
+    width: 1000px;
+    height: 1000px;
     z-index: 2;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
     z-index: 200;
+    background-image: url(images/f.png);
+    background-repeat:no-repeat ;
+    background-position: left;
+
+   
 
 }
 
