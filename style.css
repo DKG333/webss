@@ -1870,7 +1870,49 @@ hr{
     }
     
 } */
+@media (min-width: 500px) and (max-width: 700px){
 
+
+    .popup3 .content { 
+        position: fixed;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: rgb(255, 255, 255);
+         width: 400px;
+        height: 400px; 
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+        background-image: url(images/360package.png);
+        background-repeat:no-repeat ;
+        background-position: left;
+    } 
+   
+    .popup2 .content2{
+  
+        position: fixed;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: rgb(255, 255, 255);
+         width: 400px;
+        height: 400px; 
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+        background-image: url(images/360package.png);
+        background-repeat:no-repeat ;
+        background-position: left;
+       
+    
+    }
+
+}
 @media (min-width: 700px) and (max-width: 1000px){
     
     .popup3 .content { 
