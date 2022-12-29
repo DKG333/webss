@@ -3098,12 +3098,37 @@ hr{
 
 }
 #videoreel{
-    height: 500px;
+    height: 1000px;
     width: auto;
     width: 100% ;
     padding: 70px 0;
-    background-color: rgb(246, 90, 0);
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    align-items: flex-end;
+    background-color: rgb(0, 0, 0);
     background-size: cover;
+}
+.promo1{
+    /* width: 20%;
+    height: 10%;
+    margin-top: -2.875%; */
+    background-color: black;
+    color: lime;
+    padding: 15px 30px;
+    margin: 30px;
+}
+.promo{
+    
+
+    margin-bottom: 1px;
+    margin-right : 900px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: green;
+
+    bottom: 0;
 }
 @media (min-width:500px) and (max-width:1000px){
     .promo{
@@ -3112,6 +3137,7 @@ hr{
         margin-right: 650px;
        
         margin-bottom: -2000px;
+        float: right;
       
 
          }
