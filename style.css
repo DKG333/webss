@@ -1546,7 +1546,7 @@ hr{
         margin-top: 50px; */
         /* vertical-align: top; */
        
-        margin-right: 200px;
+        margin-right: 250px;
         background-color: gray;
         color: white;
         /* display: flex; */
@@ -1570,7 +1570,7 @@ hr{
         padding-left: 30px;
         margin-top: 50px;
         /* margin-left: -500px; */
-        margin-right: 80px
+        margin-right: 100px
     }
     .popup3 .closebtn3{
         cursor: pointer;
@@ -1636,7 +1636,7 @@ hr{
         padding-left: 30px;
         margin-top: -300px;
         /* margin-left: -500px; */
-        margin-left: 50px;
+        margin-left: 110px;
     }
     .header{
         font-size: 1000px;
@@ -1924,8 +1924,8 @@ hr{
         left: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: rgb(255, 255, 255);
-         width: 100px;
-        height: 100px; 
+         width: 400px;
+        height: 400px; 
         z-index: 2;
         text-align: center;
         padding: 20px;
@@ -1943,8 +1943,8 @@ hr{
         left: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: rgb(255, 255, 255);
-         width: 100px;
-        height: 100px; 
+         width: 400px;
+        height: 400px; 
         z-index: 2;
         text-align: center;
         padding: 20px;
@@ -1958,7 +1958,7 @@ hr{
     }
 
 }
-@media (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 600px) {
 
 
     .popup3 .content { 
@@ -2001,7 +2001,7 @@ hr{
     }
 
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
 
 
     .popup3 .content { 
@@ -2031,6 +2031,47 @@ hr{
         background: rgb(255, 255, 255);
          width: 400px;
         height: 400px; 
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+        background-image: url(images/360package.png);
+        background-repeat:no-repeat ;
+        background-position: left;
+       
+    
+    }
+
+} */
+@media (min-width: 1000px) and (max-width: 1300px){
+    .popup3 .content { 
+        position: fixed;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: rgb(255, 255, 255);
+         width: 1000px;
+        height: 800px; 
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+        background-image: url(images/360package.png);
+        background-repeat:no-repeat ;
+        background-position: left;
+    } 
+   
+    .popup2 .content2{
+  
+        position: fixed;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: rgb(255, 255, 255);
+         width: 1000px;
+        height: 800px; 
         z-index: 2;
         text-align: center;
         padding: 20px;
