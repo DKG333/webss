@@ -110,12 +110,18 @@ body .navbar__container{
 .banner-btn a:hover {
     color: rgb(255, 255, 255);
 }
-@media(width:400px){
-    #banner{
-        overflow-x: hidden;
+@media (max-width:1600px) {
+    .promo{
+       
+   margin-right: 650px;
+  
+   margin-top: 700px;
     }
+
+    
 }
-/* parrallaxinf background */
+
+/* parrallaxing background */
 .margin{
     margin: 75% 0;
    
@@ -1419,8 +1425,8 @@ hr{
         width: 100%;
         height: 100%;
      }
-}
-@media only screen and (max-width: 900px) {
+   
+}@media (min-width: 800px) and (max-width: 1100px) {
     html,body{
         overflow-x: hidden;
         padding: 0;
@@ -1735,10 +1741,7 @@ hr{
     
     }
 
-     .promo{
-        height: 50px;
-        width: 50px;
-    }
+
     .popup2{
         z-index: 1000;
         font-size: 1000px; 
@@ -1964,14 +1967,14 @@ hr{
         left: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: rgb(255, 255, 255);
-         width: 100px;
-        height: 100px; 
+         width: 400px;
+        height: 400px; 
         z-index: 2;
         text-align: center;
         padding: 20px;
         box-sizing: border-box;
         z-index: 200;
-        background-image: url(images/360package.png);
+        background-image: url(images/Screenshot\ \(704\).png.png);
         background-repeat:no-repeat ;
         background-position: left;
     } 
@@ -1990,7 +1993,7 @@ hr{
         padding: 20px;
         box-sizing: border-box;
         z-index: 200;
-        background-image: url(images/360package.png);
+        background-image: url(images/Screenshot\ \(704\).png.png);
         background-repeat:no-repeat ;
         background-position: left;
        
@@ -2117,63 +2120,92 @@ hr{
         text-align: center;
         border-radius: 50%; */
     }
-    .promo{
-        height: 50px;
-        width: 50px;
-    }
-    @media (min-width: 1600px) and (max-width: 1800px){
-        .button2{
-            width: 200px;
-            height: 400px;
-            margin: 0;
-            background-color: gray;
-            color: white;
-            display: flex;
-            display: table-cell;
-            vertical-align:middle;
-            background-color: yellow;
-            color: black;
-           
-            text-align: center;
-            font-size: 1px;
-            padding-bottom: 50px;
-            padding-right: 20px;
-            border-radius: 15px;
-            border: 3px dashed blue;
-            justify-content: space-between;
-            align-items: center;
-            margin-left: 45px;
-            margin-bottom: 1000px;
-        }
-        .button3{
-           
-            width: 200px;
-            height: 400px;
-            margin: 0;
-            background-color: gray;
-            color: white;
-            display: flex;
-            display: table-cell;
-            vertical-align:middle;
-            background-color: yellow;
-            color: black;
-           
-            text-align: center;
-            font-size: 1px;
-            padding-bottom: 500000px;
-            padding-right: 20px;
-            border-radius: 15px;
-            border: 3px dashed blue;
-            justify-content: space-between;
-            align-items: center;
-            margin-right: 1000px;
-            margin-bottom: 1000px;
-        }
 
+  
+}
+@media (min-width: 1600px) and (max-width: 1800px){
+    .button2{
+        width: 200px;
+        height: 400px;
+        margin: 0;
+        background-color: gray;
+        color: white;
+        display: flex;
+        display: table-cell;
+        vertical-align:middle;
+        background-color: yellow;
+        color: black;
+       
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px;
+        border: 3px dashed blue;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 400px;
+        margin-bottom: 1000px;
+    }
+    .button3{
+       
+        width: 200px;
+        height: 400px;
+        margin: 0;
+        background-color: gray;
+        color: white;
+        display: flex;
+        display: table-cell;
+        vertical-align:middle;
+        background-color: yellow;
+        color: black;
+       
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px;
+        border: 3px dashed blue;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 600px;
+        margin-bottom: 100px;
+    }
+
+
+}
+#videoreel{
+    height: 500px;
+    width: auto;
+    width: 100% ;
+    padding: 70px 0;
+    background-color: rgb(246, 90, 0);
+    background-size: cover;
+}
+@media (min-width:500px) and (max-width:1000px){
+    .promo{
+        width:200px;
+         height:200px;
+        margin-right: 650px;
+       
+        margin-bottom: -2000px;
+      
+
+         }
+
+         /* .promo1{
+            height: 200px;
+            width: 200px;
+            margin-left: 800px;
+            margin-bottom: 200px;
+            
+         } */
+}
+@media(width:400px){
+    #banner{
+        overflow-x: hidden;
     }
 }
-
-
 
 
 /* gallery */
